@@ -1,9 +1,9 @@
+# pylint: disable=no-member, broad-except, missing-module-docstring
+
 import threading
 import queue
 import cv2
 from ultralytics import YOLO
-
-# pylint: disable=no-member, broad-except
 
 
 def run_tracker_in_thread(
